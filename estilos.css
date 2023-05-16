@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 150%;
+    padding: 0.6em;
+}
+header{
+    color: #ffffff;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0.4em;
+    padding-right: 2.9em;
+}
+nav{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(156, 89, 243);
+    margin: 0.4em;
+}
+nav li{
+    display: inline-block;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin: 0.1em;
+}
+#general{
+    width: 100%;
+    margin: auto;
+    height: 969px;
+    background: #000000;
+}
+#encabezado{
+    height: 20%;
+    background: #000000;
+}
+#titulo{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(114, 114, 114);
+}
+#body{
+    height: 68%;
+    width: 100%;
+    background-color: #c9c9c9;
+}
+footer{
+    height: 5%;
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#ft{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+}
+h2{
+    text-align: center;
+    padding-top: 0.4em;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+iframe{
+    float: right;
+    padding: 0.9em;
+}
+#bodyizq{
+    height: 68%;
+    width: 30%;
+    background-color: #d1d1d1;
+    float: left;
+}
+#bodyder{
+    height: 68%;
+    width: 70%;
+    background-color: #fffbc8;
+    float: right;
+}
+#izq{
+    height: 68%;
+    width: 33%;
+    background-color: #8cc2ff;
+    float: left;
+}
+#der{
+    height: 68%;
+    width: 33%;
+    background-color: #8effaa;
+    float: right;
+}
+#cen{
+    height: 68%;
+    width: 34%;
+    background-color: #fd8888;
+    float: right;
+}
+#text{
+    padding-top: 0.00001em;
+    text-align: justify;
+    padding-left: 0.9em;
+    font-size: 22px;
+}
+article{
+    width: 100%;
+    height: 7%;
+    background-color: rgb(114, 114, 114);
+}
+#generalf{
+    width: 100%;
+    margin: auto;
+    height: 1250px;
+    background: #000000;
+    position: relative;
+}
+#encabezadof{
+    height: 16%;
+    background: #000000;
+}
+#titulof{
+    width: 100%;
+    height: 6%;
+    background-color: rgb(114, 114, 114);
+}
+.f{
+    height: 4%;
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+#bodyif{
+    height: 74%;
+    width: 45%;
+    background-color: #ebebeb;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    padding: 20px 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 510px;
+}
+.input-grupo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+h3{
+    color: #180044;
+    font-size: 30px;
+}
+label{
+    color: #20005c;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input, textarea{
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #ebe3ff;
+    border: 2px solid #ebebeb;
+    color: #0e0035;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #999c99;
+}
+.boton{
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #7800c9;
+    box-shadow: 0 0 20px rgba(119, 0, 254, 0.4);
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: #320183;
+}
+#bodydf{
+    height: 74%;
+    width: 55%;
+    background-color: #d3c2ff;
+    float: right;
+}
+.gal{
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+    padding-top: 3em;
+}
